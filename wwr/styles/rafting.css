@@ -34,18 +34,14 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 30px;
     background-color: var(--accent2-color);
-    display: grid;
-    grid-template-columns: 150px 150px;
-    grid-template-rows: auto;
-    justify-items: center;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-header image {
-    grid-column: 1;
 }
 
 header nav {
-    grid-column: 2;
+    margin-left: 30px;
 }
 
 p {
@@ -70,6 +66,11 @@ nav a:link, nav a:visited {
     color: var(--nav-hover-link-color)
 }
 
+
+footer a:visited, footer a {
+    color: white;
+    text-decoration: none;
+}
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color)
@@ -149,5 +150,88 @@ footer {
     background-color: #003F91;
     justify-content: space-between;
     width: 100%;
-    margin-top: 30px
+    margin-top: 30px;
+}
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    border: 1px dotted black;
+    margin: 20px;
+    padding: 20px;
+    width: 1150px;
+}
+
+iframe {
+    margin: 30px;
+}
+
+.employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(209, 209, 209);
+    border: 1px dotted black;
+    width: 80%;
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.employee-pic {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emp-contain {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.emp-pic {
+    width: 200px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #74b0ff;
+}
+
+.form-item {
+    padding: 20px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    font-family: Comfortaa;
+    font-size: 18px;
+    color: white;
+    background-color: #003F91;
+    margin-bottom: 30px;
+    border: 1px solid white
+
+}
+
+textarea {
+    width: 350px;
+    padding: 10px;
 }
