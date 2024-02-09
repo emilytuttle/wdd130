@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Comfortaa&display=swap');
+
+:root {
+    --primary-color: #003F91;
+    --secondary-color: #FB5012;
+    --accent1-color: #F5E663;
+    --accent2-color: #3F6634;
+
+    --heading-font: 'Archivo Black', serif;
+    --paragraph-font: Comfortaa, serif;
+
+    --nav-background-color: #003F91;
+    --nav-link-color: #FB5012;
+    --nav-hover-link-color: #F5E663;
+    --nav-hover-background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    padding: 20px;
+    background-color: #fbeaea
+}
+
+
+header {
+    padding: 30px;
+    color: rgb(44, 44, 88)
+    
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    padding:15px;
+}
+
+label {
+    padding: 10px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 35px;
+}
+
+header {
+    text-align: center;
+}
